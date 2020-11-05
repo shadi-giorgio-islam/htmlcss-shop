@@ -27,8 +27,19 @@
 /* fine prodotti */
 .discount{
   padding: 5px;
-  background-color: yellow;
+  background-color: green;
   position: absolute;
   top: 0;
   right: 0;
+}
+.product:nth-child(even) .discount{
+  background-color: red;
+}
+.heart{
+  position: absolute;
+  bottom: 5%;
+  width: 100%;
+  font-size: 25px;
+  color: red;
+  text-align: center; 
 }
