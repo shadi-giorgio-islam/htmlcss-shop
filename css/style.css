@@ -2,7 +2,6 @@
   width: 960px;
   height: 500px;
   margin: auto;
-  position: relative;
   background-color: red;
 }
 .products-row{
@@ -10,4 +9,12 @@
   height: 50%;
   background-color: blue;
   border: 2px solid black;
+}
+.products-row div{
+  width: 30%;
+  height: 100%;
+  margin: 0 1.3%;
+  background-color: green;
+  display: inline-block;
+  border: 2px solid white;
 }
