@@ -1,20 +1,34 @@
+/* conatiner */
 .container{
   width: 960px;
   height: 500px;
   margin: auto;
   background-color: red;
 }
+/* fine container */
+/* fila prodotti */
 .products-row{
   width: 100%;
   height: 50%;
   background-color: blue;
   border: 2px solid black;
 }
-.products-row div{
+/* fine fila prodotti */
+/* prodotti */
+.product{
   width: 30%;
   height: 100%;
   margin: 0 1.3%;
   background-color: green;
+  position: relative;
   display: inline-block;
   border: 2px solid white;
+}
+/* fine prodotti */
+.discount{
+  padding: 5px;
+  background-color: yellow;
+  position: absolute;
+  top: 0;
+  right: 0;
 }
