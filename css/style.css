@@ -35,11 +35,17 @@
 .product:nth-child(even) .discount{
   background-color: red;
 }
+/* inizio icona cuore */
 .heart{
+  display: none;
   position: absolute;
   bottom: 5%;
   width: 100%;
   font-size: 25px;
   color: red;
-  text-align: center; 
+  text-align: center;
 }
+.product:hover .heart{
+  display: block;
+}
+/* fine icona cuore */
