@@ -1,3 +1,27 @@
+/* inizio header */
+header{
+  background-color: rgb(74, 0, 255);
+  color: white;
+  text-align: center;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+.logo{
+  display: inline-block;
+  vertical-align: baseline;
+  font-size: 100px;
+  font-family: 'Oswald', sans-serif;
+}
+.title{
+  display: inline-block;
+  font-size: 50px;
+  font-family: 'Oswald', sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+/* fine header */
+
 /* conatiner */
 .container{
   width: 960px;
@@ -43,3 +67,15 @@
   display: block;
 }
 /* fine icona cuore */
+/* inizio footer */
+footer{
+  margin-bottom: 0;
+  padding: 1%;
+  text-align: center;
+  background-color: rgb(74, 0, 255);
+  color: white;
+  font-size: 50px;
+  font-family: 'Oswald', sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+/* fine footer */
