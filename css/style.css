@@ -17,7 +17,6 @@ header{
 .title{
   display: inline-block;
   font-size: 50px;
-  font-family: 'Oswald', sans-serif;
   font-family: 'Roboto Condensed', sans-serif;
 }
 /* fine header */
@@ -75,7 +74,6 @@ footer{
   background-color: rgb(74, 0, 255);
   color: white;
   font-size: 50px;
-  font-family: 'Oswald', sans-serif;
   font-family: 'Roboto Condensed', sans-serif;
 }
 /* fine footer */
